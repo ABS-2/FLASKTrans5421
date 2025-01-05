@@ -61,4 +61,4 @@ def translate():
     return render_template('index.html', original=text, translated=translated_text)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=9930, debug=True)
+    app.run(debug=True, port=9930)
