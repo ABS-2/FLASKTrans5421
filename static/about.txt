@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Economica
-- Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/economica/v15/Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf
-- Font License: undefined)
