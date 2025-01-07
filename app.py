@@ -53,7 +53,7 @@ def translate():
         # Use the model to translate the text
         prediction = model.predict(padded_sequence)
         y_id_to_word = {value: key for key, value in fr_tokenizer.word_index.items()}
-        y_id_to_word[0] = '<PAD>'
+        y_id_to_word[0] = ''
         translated_text = ' '.join([y_id_to_word[np.argmax(x)] for x in prediction[0]])
         print(f"Translation successful: {translated_text}")
     except Exception as e:
@@ -64,3 +64,4 @@ def translate():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=9930)
+    
