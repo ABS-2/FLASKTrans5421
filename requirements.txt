@@ -1,0 +1,4 @@
+flask==2.3.3
+regex
+tensorflow==2.16.1
+protobuf==3.20.3
